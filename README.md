@@ -6,7 +6,7 @@
 npm i 
 ```
 
-#### Run Server and Client
+#### Run Server and Client (Terminal 1, Terminal 2)
 
 in "/" and in "/api" folder
 
@@ -20,12 +20,14 @@ Express API: http://localhost:3000/ <br>
 
 #### Run Redis
 
-#### Server
+#### Server (Terminal 3)
+
 ```
 redis-server
 ```
 
-#### CLI
+#### CLI (Terminal 4)
+
 ```
 redis-cli
 ```
@@ -34,3 +36,6 @@ redis-cli
 
 Go ahead, try to make some API calls and see how Time <br>
 changes in-between, when Redis stores request and sends it to you from disk
+
+Use flushall inside 'redis-cli' terminal to clear data stored in Cache, <br>
+and by that update it next time we fetch the data
